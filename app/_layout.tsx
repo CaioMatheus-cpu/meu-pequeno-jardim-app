@@ -10,6 +10,9 @@ export default function RootLayout() {
       <Stack.Screen name="register" options={{ title: "Cadastro" }} />
       <Stack.Screen name="register-child" options={{ title: "Cadastro da Criança" }} />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="parent-area" options={{ headerShown: false }} />
+      <Stack.Screen name="faq" options={{ headerShown: false }} />
+
     </Stack>
   );
 }
