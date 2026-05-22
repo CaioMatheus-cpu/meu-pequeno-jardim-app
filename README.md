@@ -1,10 +1,33 @@
-# Meu Pequeno Jardim 🌱
+<p align="center">
+  <img src="assets/images/logo.png" alt="Meu Pequeno Jardim" width="180" />
+</p>
+
+<h1 align="center">Meu Pequeno Jardim 🌱</h1>
 
 Aplicativo mobile de **educação emocional para crianças**. A criança cultiva um "jardim de emoções": registra diariamente como está se sentindo, mantém um diário, acompanha um calendário e assiste a vídeos educativos — enquanto pais e responsáveis acompanham a evolução por uma área dedicada.
 
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white" alt="Expo" />
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black" alt="React Native" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
+
+---
+
+## As emoções do jardim
+
+A criança navega por um carrossel e identifica como está se sentindo:
+
+<p align="center">
+  <img src="assets/images/Feliz.png" alt="Feliz" width="90" />
+  <img src="assets/images/Triste.png" alt="Triste" width="90" />
+  <img src="assets/images/Raiva.png" alt="Raivoso" width="90" />
+  <img src="assets/images/Anisoso.png" alt="Ansioso" width="90" />
+  <img src="assets/images/Sonolento.png" alt="Sonolento" width="90" />
+  <img src="assets/images/Entediado.png" alt="Entediado" width="90" />
+  <img src="assets/images/Doente.png" alt="Doente" width="90" />
+  <img src="assets/images/NS.png" alt="Não sei" width="90" />
+</p>
 
 ---
 
