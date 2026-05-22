@@ -31,7 +31,6 @@ A criança navega por um carrossel e identifica como está se sentindo:
 
 ---
 
-
 ## Funcionalidades
 
 - **Jardim de emoções**: carrossel interativo onde a criança seleciona como se sente (feliz, ansioso, triste, raivoso, sonolento, entediado, doente e mais).
