@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# Meu Pequeno Jardim 🌱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile de **educação emocional para crianças**. A criança cultiva um "jardim de emoções": registra diariamente como está se sentindo, mantém um diário, acompanha um calendário e assiste a vídeos educativos — enquanto pais e responsáveis acompanham a evolução por uma área dedicada.
 
-## Get started
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Funcionalidades
 
-2. Start the app
+- **Jardim de emoções**: carrossel interativo onde a criança seleciona como se sente (feliz, ansioso, triste, raivoso, sonolento, entediado, doente e mais).
+- **Diário**: registro pessoal das emoções e acontecimentos do dia.
+- **Calendário**: visualização do histórico emocional ao longo do tempo.
+- **Vídeos educativos**: conteúdo em vídeo voltado ao bem-estar infantil.
+- **Área dos responsáveis**: login, cadastro de criança e painel para acompanhamento dos pais.
+- **Perfil**: personalização da experiência da criança.
 
-   ```bash
-   npx expo start
-   ```
+## Stack
 
-In the output, you'll find options to open the app in a
+- **Expo (SDK 54)** com **expo-router** (roteamento baseado em arquivos e rotas tipadas)
+- **React Native 0.81** + **React 19** com a Nova Arquitetura e React Compiler
+- **TypeScript**
+- **react-native-calendars** para o calendário
+- **victory-native** para visualização de dados emocionais
+- **react-native-youtube-iframe** para os vídeos
+- **AsyncStorage** para persistência local
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Estrutura
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+app/
+  (tabs)/        # Navegação principal: início, diário, calendário, vídeos, perfil
+  login.tsx      # Autenticação dos responsáveis
+  register.tsx   # Cadastro
+  register-child.tsx
+  parent-area.tsx# Área dos pais
+  faq.tsx
+components/      # Componentes reutilizáveis e de tema
+constants/       # Tema e tokens de design
+hooks/           # Hooks customizados (ex.: color scheme)
+assets/          # Imagens das emoções e identidade visual
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Como executar
 
-## Learn more
+Pré-requisitos: Node.js LTS e o app [Expo Go](https://expo.dev/go) (ou um emulador Android/iOS).
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+# 1. Instalar dependências
+npm install
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# 2. Iniciar o servidor de desenvolvimento
+npx expo start
+```
 
-## Join the community
+No terminal, escolha abrir em um **emulador Android**, **simulador iOS**, no **navegador** ou escaneie o QR Code com o **Expo Go**.
 
-Join our community of developers creating universal apps.
+## Scripts
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+| Comando            | Descrição                          |
+| ------------------ | ---------------------------------- |
+| `npm start`        | Inicia o servidor Expo             |
+| `npm run android`  | Abre no emulador Android           |
+| `npm run ios`      | Abre no simulador iOS              |
+| `npm run web`      | Abre no navegador                  |
+| `npm run lint`     | Executa o linter                   |
+
+---
+
+Desenvolvido por **Caio Matheus Bezerra da Silva**.
