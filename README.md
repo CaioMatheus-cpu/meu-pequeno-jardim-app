@@ -31,13 +31,6 @@ A criança navega por um carrossel e identifica como está se sentindo:
 
 ---
 
-## Tela inicial
-
-<p align="center">
-  <img src="assets/images/tela-inicial.jpeg" alt="Tela inicial do Meu Pequeno Jardim" width="280" />
-</p>
-
----
 
 ## Funcionalidades
 
